@@ -5,13 +5,13 @@
     <button onclick="getRoll()">This is a button test</button>
     <form>
       <label for="sides">Sides on di(c)e</label>
-      <input type="text" name="sides" id="sides" value="20">
+      <input type="number" name="sides" id="sides" value="20" min="4" max="20">
       <br>
       <label for="mult">Multiplier/number of dice</label>
-      <input type="text" name="mult" id="mult" value="1">
+      <input type="number" name="mult" id="mult" value="1" min="1" max="100">
       <br>
       <label for="mod">Modifier</label>
-      <input type="text" name="mod" id="mod" value="0">
+      <input type="number" name="mod" id="mod" value="0" min="-5" max="5">
     </form>
     <p>This is a github test</p>
   </body>
